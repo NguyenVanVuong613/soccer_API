@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Phần tiêu đề -->
+        <TextView
+            android:id="@+id/tv_app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Ứng dụng phân tích video bóng đá"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Phần mô tả -->
+        <TextView
+            android:id="@+id/tv_app_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="4dp"
+            android:text="Ứng dụng Android giúp phân tích chuyển động trong bóng đá. Ứng dụng cho phép bạn tải video trận đấu lên và nhận về kết quả phân tích chi tiết thông qua hệ thống API."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Phần giới thiệu tính năng -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Với công nghệ AI tiên tiến, ứng dụng có thể tự động nhận diện và theo dõi:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Danh sách tính năng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical"
+            android:paddingStart="32dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawablePadding="8dp"
+                android:text="• Bóng"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawablePadding="8dp"
+                android:text="• Cầu thủ"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawablePadding="8dp"
+                android:text="• Trọng tài"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawablePadding="8dp"
+                android:text="• Sân bóng"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Phần mô tả quy trình -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="4dp"
+            android:text="Bạn chỉ cần tải video lên, hệ thống sẽ xử lý và gửi lại cho bạn video đã được phân tích cùng các thông số chi tiết. Tất cả quá trình xử lý được thực hiện trên máy chủ, giúp ứng dụng hoạt động mượt mà trên mọi thiết bị Android."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Phần hướng dẫn -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Hướng dẫn sử dụng"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Bước 1 -->
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="#FFFFFF"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Bước 1: Từ giao diện chào mừng chọn vào nút Bắt đầu"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="#EEEEEE"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_4" />
+                </LinearLayout>
+
+                <!-- Bước 2 -->
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="#FFFFFF"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Bước 2: Chọn tải lên video trận đấu"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="#EEEEEE"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_5" />
+                </LinearLayout>
+
+                <!-- Bước 3 -->
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="#FFFFFF"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Bước 3: Chọn video mong muốn trong thư viện"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="#EEEEEE"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_6" />
+                </LinearLayout>
+
+                <!-- Bước 4 -->
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="#FFFFFF"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Bước 4: Sau đó chọn vào nút Phân tích video"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="#EEEEEE"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_7" />
+                </LinearLayout>
+
+                <!-- Bước 5 -->
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="#FFFFFF"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Bước 5: Sau khi video phân tích xong chọn vào nút Xem kết quả"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="#EEEEEE"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_8" />
+                </LinearLayout>
+
+                <!-- Bước 6 -->
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="#FFFFFF"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Bước 6: Kết quả video phân tích được hiển thị"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="#EEEEEE"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_9" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Nút Quay lại -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#2196F3"
+            android:onClick="onBackPressed"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:text="Quay lại"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

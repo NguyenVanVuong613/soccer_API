@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_3"
+        android:contentDescription="Background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-80dp"
+            android:layout_marginBottom="20dp"
+            android:text="ỨNG DỤNG PHÂN TÍCH VIDEO BÓNG ĐÁ!"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="16sp"
+            android:autoSizeMaxTextSize="24sp"
+            android:autoSizeStepGranularity="2sp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tải lên video bóng đá và nhận các chỉ số trận đấu: số sút, số pha cứu thua, và nhiều hơn nữa."
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="50dp" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Bắt đầu"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:alpha="0.9"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_intro"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Giới thiệu"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="8dp"
+            android:alpha="0.9"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</FrameLayout>
